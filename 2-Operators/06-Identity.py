@@ -8,6 +8,7 @@ def test_identity_operators():
   assert first_fruits_list is third_fruits_list
 
   # is not returns True if both variables are not the same object.
+  assert first_fruits_list == second_fruits_list
   assert first_fruits_list is not second_fruits_list
 
 test_identity_operators()

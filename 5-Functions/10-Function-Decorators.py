@@ -10,12 +10,13 @@ def tictoc(func):
     print(f'{func.__name__} ran in {t2} seconds')
   return wrapper
 
-# Pass do_this into tictoc
+# Pass the do_this function into tictoc
 @tictoc
 def do_this():
   # Simulating running code..
   time.sleep(1.3)
 
+# Pass the do_that function into tictoc
 @tictoc
 def do_that():
   # Simulating running code..

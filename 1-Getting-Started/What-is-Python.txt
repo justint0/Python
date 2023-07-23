@@ -4,6 +4,6 @@ What is Python?
 
   - Python's elegant syntax, dynamic typing, and interpreted nature make it an ideal language for scripting and rapid application development. 
 
-  - Python is used for server-side web development, software development, mathematics, and systems scripting. 
+  - Python is used for server-side web development, software development, math, and systems scripting. 
 
 GitHub tutorial link: https://github.com/trekhleb/learn-python
