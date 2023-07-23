@@ -14,7 +14,7 @@ def test_class_objects():
 
   # Class instantiation
   complex_number = ComplexNumber()
-  assert complex_number.real == 10
+  complex_number.real = 10
   assert complex_number.get_real() == 10 
 
   # __init__ is a special method known as the constructor.

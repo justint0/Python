@@ -12,6 +12,7 @@ def test_lambda_expressions():
   pairs = [(1, 'one'), (2, 'two'), (3, 'three'), (4, 'four')]
   pairs.sort(key=lambda pair: pair[1])
 
+  # The words are ordered alphabetically
   assert pairs == [(4, 'four'), (1, 'one'), (3, 'three'), (2, 'two')]
 
 test_lambda_expressions()
